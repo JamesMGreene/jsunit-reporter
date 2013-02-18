@@ -33,3 +33,7 @@ All you need to do is:
         /* ...assert whatever, just be sure to end by calling `JsUnit._assert` */
     };
 ```
+
+---
+
+_**This repo was originally ported over from my extensive Gist: https://gist.github.com/JamesMGreene/4371789**_
