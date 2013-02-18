@@ -2,8 +2,14 @@
 Add QUnit-style lifecycle logging callbacks into the legacy JsUnit framework.  
 
 ## Usage
- 1. On the JsUnit [testRunner.html](https://github.com/pivotal/jsunit/blob/master/testRunner.html) page, add a script element inclusion for the ["jsunit-reporter.js"](#file-jsunit-reporter-js) file _after_ all of the existing "app/*.js" script element inclusions but _before_ the inline script element, i.e. [here](https://github.com/pivotal/jsunit/blob/16a70b2b2bf96a80adca1d0fa6144dd61e3ba59b/testRunner.html#L14).
- 2. On the JsUnit [testRunner.html](https://github.com/pivotal/jsunit/blob/master/testRunner.html) page, add a script element inclusion to a file like ["jsunit-reporter-example-usage.js"](#file-jsunit-reporter-example-usage-js) _immediately_ after the ["jsunit-reporter.js"](#file-jsunit-reporter-js) inclusion to actually setup logging callbacks before the test run begins.
+ 1. On the JsUnit [testRunner.html](https://github.com/pivotal/jsunit/blob/master/testRunner.html) page, add a script
+    element inclusion for the ["jsunit-reporter.js"](https://github.com/JamesMGreene/jsunit-reporter/blob/master/jsunit-reporter.js)
+    file _after_ all of the existing "app/*.js" script element inclusions but _before_ the inline script element, i.e. 
+    [here](https://github.com/pivotal/jsunit/blob/16a70b2b2bf96a80adca1d0fa6144dd61e3ba59b/testRunner.html#L14).
+ 2. On the JsUnit [testRunner.html](https://github.com/pivotal/jsunit/blob/master/testRunner.html) page, add a script
+    element inclusion to a file like ["example-usage.js"](https://github.com/JamesMGreene/jsunit-reporter/blob/master/example-usage.js
+    _immediately_ after the ["jsunit-reporter.js"](https://github.com/JamesMGreene/jsunit-reporter/blob/master/jsunit-reporter.js)
+    inclusion to actually setup logging callbacks before the test run begins.
  3. _Enjoy!_
 
 
